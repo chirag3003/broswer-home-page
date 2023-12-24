@@ -1,8 +1,5 @@
-import { Inter } from "next/font/google";
 
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
     title: "Nextjs 13, TailwindCss Template",
@@ -16,7 +13,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="en">
-            <body className={`${inter.className} text-text`}>{children}</body>
+            <body className={`text-text bg-background`}>{children}</body>
         </html>
     );
 }

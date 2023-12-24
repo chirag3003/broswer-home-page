@@ -3,6 +3,9 @@
 #Jetbrains Config
 .idea
 
+#environment variables
+.env
+
 # dependencies
 /node_modules
 /.pnp
