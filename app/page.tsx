@@ -1,7 +1,6 @@
-"use client"
-
-import SearchBar from "@/components/SearchBar";
-import Weather from "@/components/Weather";
+import PinnedWebsites from '@/components/PinnedWebsites'
+import SearchBar from '@/components/SearchBar'
+import Weather from '@/components/Weather'
 
 export default function Home() {
     return (
@@ -14,6 +13,7 @@ export default function Home() {
                 <Weather />
             </div>
             <SearchBar />
+            <PinnedWebsites />
         </main>
-    );
+    )
 }

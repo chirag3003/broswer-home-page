@@ -1,5 +1,7 @@
+"use client"
+
 import React, { useState } from 'react'
-import { Search } from 'react-feather'
+import { Search as SearchIcon } from 'react-feather'
 
 function SearchBar() {
     const [input, setInput] = useState('')
@@ -22,7 +24,7 @@ function SearchBar() {
                 className="flex-1 p-4 border-none oultine-none bg-transparent focus:outline-none focus:border-none focus:ring-0"
             />
             <button type="submit" className="p-4">
-                <Search />
+                <SearchIcon />
             </button>
         </form>
     )
